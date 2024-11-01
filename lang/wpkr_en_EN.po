@@ -1,0 +1,296 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Kradeno 0.5\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-kradeno\n"
+"POT-Creation-Date: 2010-04-29 18:39+0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Boyan Yurukov <yurukov@gmail.com>\n"
+"Language-Team: Boyan Yurukov <yurukov@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+
+#: wp-kradeno.php:104
+msgid "already excluded globally."
+msgstr "already excluded globally."
+
+#: wp-kradeno.php:109
+msgid "excluded globally."
+msgstr "excluded globally."
+
+#: wp-kradeno.php:117
+msgid "ignored for one post."
+msgstr "ignored for one post."
+
+#: wp-kradeno.php:124
+msgid "set warned for one post."
+msgstr "set warned for one post."
+
+#: wp-kradeno.php:131
+msgid "set successfully changed for one post."
+msgstr "set successfully changed for one post."
+
+#: wp-kradeno.php:138
+msgid "set agreed for one post."
+msgstr "set agreed for one post."
+
+#: wp-kradeno.php:167
+msgid "WP Kradeno Report"
+msgstr "WP Kradeno Report"
+
+#: wp-kradeno.php:193
+msgid "Starting..."
+msgstr "Starting..."
+
+#: wp-kradeno.php:196
+msgid "Stand by..."
+msgstr "Stand by..."
+
+#: wp-kradeno.php:196
+msgid "or stop"
+msgstr "or stop"
+
+#: wp-kradeno.php:208
+#: wp-kradeno.php:224
+msgid "Refresh recommended"
+msgstr "Refresh recommended"
+
+#: wp-kradeno.php:213
+#: wpkr-search.php:54
+#: wpkr-search.php:107
+msgid "Progress"
+msgstr "Progress"
+
+#: wp-kradeno.php:213
+msgid "Skipped posts"
+msgstr "Skipped posts"
+
+#: wp-kradeno.php:213
+msgid "Found new reposts"
+msgstr "Found new reposts"
+
+#: wp-kradeno.php:239
+#, php-format
+msgid "You haven't checked for reposts for %d days"
+msgstr "You haven't checked for reposts for %d days"
+
+#: wp-kradeno.php:241
+msgid "You haven't checked for reposts so far."
+msgstr "You haven't checked for reposts so far."
+
+#: wp-kradeno.php:243
+msgid "You could start a report check here. Note that it may take at least 10 minutes. This depends on the number of posts you have, their size and on the speed of your server. If you have a lot of posts, you may run out of Google API calls (how many requests it's save to send to Google). In this case, you could run the check an hour later and it will continue from where it ended. The checking algorithm will skip all posts that were checked in the last 6 hours. You may override this by marking the force checkbox."
+msgstr "You could start a report check here. Note that it may take at least 10 minutes. This depends on the number of posts you have, their size and on the speed of your server. If you have a lot of posts, you may run out of Google API calls (how many requests it's save to send to Google). In this case, you could run the check an hour later and it will continue from where it ended. The checking algorithm will skip all posts that were checked in the last 6 hours. You may override this by marking the force checkbox."
+
+#: wp-kradeno.php:245
+msgid "Start check"
+msgstr "Start check"
+
+#: wp-kradeno.php:246
+msgid "Force check posts regardless when they were last checked"
+msgstr "Force check posts regardless when they were last checked"
+
+#: wp-kradeno.php:277
+msgid "warned"
+msgstr "warned"
+
+#: wp-kradeno.php:285
+msgid "Select action..."
+msgstr "Select action..."
+
+#: wp-kradeno.php:286
+msgid "Ignore for this post"
+msgstr "Ignore for this post"
+
+#: wp-kradeno.php:287
+msgid "Warning sent"
+msgstr "Warning sent"
+
+#: wp-kradeno.php:288
+msgid "Successfully changed"
+msgstr "Successfully changed"
+
+#: wp-kradeno.php:289
+msgid "Agreed to repost"
+msgstr "Agreed to repost"
+
+#: wp-kradeno.php:291
+msgid "Exclude for all"
+msgstr "Exclude for all"
+
+#: wp-kradeno.php:293
+msgid "Apply"
+msgstr "Apply"
+
+#: wp-kradeno.php:302
+#: wp-kradeno.php:398
+msgid "Sorry, you are not allowed to access this page."
+msgstr "Sorry, you are not allowed to access this page."
+
+#: wp-kradeno.php:324
+msgid "Excluded sites updated."
+msgstr "Excluded sites updated."
+
+#: wp-kradeno.php:332
+msgid "Google calls limit updated."
+msgstr "Google calls limit updated."
+
+#: wp-kradeno.php:340
+msgid "Rating limit updated."
+msgstr "Rating limit updated."
+
+#: wp-kradeno.php:357
+msgid "WP Kradeno Settings"
+msgstr "WP Kradeno Settings"
+
+#: wp-kradeno.php:366
+msgid "Excluded sites"
+msgstr "Excluded sites"
+
+#: wp-kradeno.php:369
+msgid "Comma separated. Include only the host name - without 'http', any slashes or quotes."
+msgstr "Comma separated. Include only the host name - without 'http', any slashes or quotes."
+
+#: wp-kradeno.php:373
+msgid "Google calls limit"
+msgstr "Google calls limit"
+
+#: wp-kradeno.php:376
+msgid "Please enter a number >100. This is the maximum number of request to Google Search per hour/session."
+msgstr "Please enter a number >100. This is the maximum number of request to Google Search per hour/session."
+
+#: wp-kradeno.php:376
+msgid "Warning"
+msgstr "Warning"
+
+#: wp-kradeno.php:376
+msgid "do not change if you aren't sure what you are doing"
+msgstr "do not change if you aren't sure what you are doing"
+
+#: wp-kradeno.php:380
+msgid "Minimum search result rating"
+msgstr "Minimum search result rating"
+
+#: wp-kradeno.php:383
+msgid "Please enter a number between 0.1 and 1.0. This is minimum average score accross multiple searches that a site should pass in order to be considered a repost."
+msgstr "Please enter a number between 0.1 and 1.0. This is minimum average score accross multiple searches that a site should pass in order to be considered a repost."
+
+#: wp-kradeno.php:387
+msgid "Save"
+msgstr "Save"
+
+#: wp-kradeno.php:388
+msgid "Restore settings to default."
+msgstr "Restore settings to default."
+
+#: wp-kradeno.php:388
+msgid "This will undo all your changes!"
+msgstr "This will undo all your changes!"
+
+#: wp-kradeno.php:393
+msgid "Restore to defaults"
+msgstr "Restore to defaults"
+
+#: wp-kradeno.php:415
+msgid "WP Kradeno:"
+msgstr "WP Kradeno:"
+
+#: wp-kradeno.php:421
+#, php-format
+msgid "You haven't checked for %s reposts%s for %d days"
+msgstr "You haven't checked for %s reposts%s for %d days"
+
+#: wp-kradeno.php:425
+#, php-format
+msgid "You haven't checked for %s reposts%s so far."
+msgstr "You haven't checked for %s reposts%s so far."
+
+#: wp-kradeno.php:445
+#, php-format
+msgid "%d possible re-posts"
+msgstr "%d possible re-posts"
+
+#: wp-kradeno.php:447
+#, php-format
+msgid " %d re-posts"
+msgstr " %d re-posts"
+
+#: wp-kradeno.php:447
+msgid "with preding warnings"
+msgstr "with preding warnings"
+
+#: wp-kradeno.php:449
+msgid "and"
+msgstr "and"
+
+#: wp-kradeno.php:454
+#, php-format
+msgid "No messages. You haven't checked for %s reposts%s though."
+msgstr "No messages. You haven't checked for %s reposts%s though."
+
+#: wpkr-search.php:6
+msgid "Error: You are not authorized"
+msgstr "Error: You are not authorized"
+
+#: wpkr-search.php:11
+msgid "Error: The plugin should be activated first."
+msgstr "Error: The plugin should be activated first."
+
+#: wpkr-search.php:54
+msgid "Google calls limit reached"
+msgstr "Google calls limit reached"
+
+#: wpkr-search.php:54
+#: wpkr-search.php:107
+msgid "Sites found"
+msgstr "Sites found"
+
+#: wpkr-search.php:107
+msgid "Finished"
+msgstr "Finished"
+
+#. Plugin Name of the plugin/theme
+msgid "WP Kradeno"
+msgstr "WP Kradeno"
+
+#. Plugin URI of the plugin/theme
+msgid "http://yurukov.net/"
+msgstr "http://yurukov.net/"
+
+#. Description of the plugin/theme
+msgid "Searches the web for stollen blog posts."
+msgstr "Searches the web for stollen blog posts."
+
+#. Author of the plugin/theme
+msgid "Boyan Yurukov"
+msgstr "Boyan Yurukov"
+
+#. Author URI of the plugin/theme
+msgid "http://yurukov.net/blog"
+msgstr "http://yurukov.net/blog"
+
+msgid "You can check for new reposts %shere%s."
+msgstr "You can check for new reposts %shere%s."
+
+msgid "Alert to recheck after days"
+msgstr "Alert to recheck after days"
+
+msgid "Please enter a number greater than 3. This will be the number of days after you'll be alerted to check for reposts."
+msgstr "Please enter a number greater than 3. This will be the number of days after you'll be alerted to check for reposts."
+
+msgid "Excluded posts"
+msgstr "Excluded posts"
+
+msgid "Comma separated. These are the ids of the posts that will not be checked."
+msgstr "Comma separated. These are the ids of the posts that will not be checked."
+
+msgid "Recheck alert days updated."
+msgstr "Recheck alert days updated."
+
+msgid "Ignored posts ids updated."
+msgstr "Ignored posts ids updated."
+
+msgid "Stop checks for this post"
+msgstr "Stop checks for this post"
+

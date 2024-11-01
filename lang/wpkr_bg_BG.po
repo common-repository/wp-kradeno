@@ -1,0 +1,296 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Kradeno 0.5\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-kradeno\n"
+"POT-Creation-Date: 2010-04-29 18:39+0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Boyan Yurukov <yurukov@gmail.com>\n"
+"Language-Team: Boyan Yurukov <yurukov@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Bulgarian\n"
+
+#: wp-kradeno.php:104
+msgid "already excluded globally."
+msgstr "вече е изключен(и) за всички."
+
+#: wp-kradeno.php:109
+msgid "excluded globally."
+msgstr "изключен(и) за всички."
+
+#: wp-kradeno.php:117
+msgid "ignored for one post."
+msgstr "пренебреднат за един пост."
+
+#: wp-kradeno.php:124
+msgid "set warned for one post."
+msgstr "отбелязан с прдупреждение за един пост."
+
+#: wp-kradeno.php:131
+msgid "set successfully changed for one post."
+msgstr "отблязан(и) като успешно променен(и) за един пост."
+
+#: wp-kradeno.php:138
+msgid "set agreed for one post."
+msgstr "отбелязан(и) като одобрен(и) за един пост"
+
+#: wp-kradeno.php:167
+msgid "WP Kradeno Report"
+msgstr "WP Крадено Отчет"
+
+#: wp-kradeno.php:193
+msgid "Starting..."
+msgstr "Започва..."
+
+#: wp-kradeno.php:196
+msgid "Stand by..."
+msgstr "Изчакайте..."
+
+#: wp-kradeno.php:196
+msgid "or stop"
+msgstr "или го спрете"
+
+#: wp-kradeno.php:208
+#: wp-kradeno.php:224
+msgid "Refresh recommended"
+msgstr "Препоръчва се да обновите страницата"
+
+#: wp-kradeno.php:213
+#: wpkr-search.php:54
+#: wpkr-search.php:107
+msgid "Progress"
+msgstr "Напредък"
+
+#: wp-kradeno.php:213
+msgid "Skipped posts"
+msgstr "Пропуснати постове"
+
+#: wp-kradeno.php:213
+msgid "Found new reposts"
+msgstr "Открити нови копирани постове"
+
+#: wp-kradeno.php:239
+#, php-format
+msgid "You haven't checked for reposts for %d days"
+msgstr "Не сте проверявали за копирани постове %d дни"
+
+#: wp-kradeno.php:241
+msgid "You haven't checked for reposts so far."
+msgstr "Не сте проверявали за копирани постове до сега."
+
+#: wp-kradeno.php:243
+msgid "You could start a report check here. Note that it may take at least 10 minutes. This depends on the number of posts you have, their size and on the speed of your server. If you have a lot of posts, you may run out of Google API calls (how many requests it's save to send to Google). In this case, you could run the check an hour later and it will continue from where it ended. The checking algorithm will skip all posts that were checked in the last 6 hours. You may override this by marking the force checkbox."
+msgstr "Тук може да направите проверка за копирани статии. Ще отнеме поне 10 мин. Зависи от това колко статии имате, колко са дълги и скоростта на сървъра ви. Ако имате много постове, може да ви свършат позволените запитвания към Google Search (има ограничение на час). В такъв случай, може да пуснете търсенето час по-късно и то ще започне от там, от където е свършило. Алгоритъма прескача всички статии, които са били проверени в последните 6 часа. Може да избегнете това като отбележите \"Провери всички...\"."
+
+#: wp-kradeno.php:245
+msgid "Start check"
+msgstr "Започни проверката"
+
+#: wp-kradeno.php:246
+msgid "Force check posts regardless when they were last checked"
+msgstr "Провери всички независимо кога са били проверени за последен път"
+
+#: wp-kradeno.php:277
+msgid "warned"
+msgstr "предупреден"
+
+#: wp-kradeno.php:285
+msgid "Select action..."
+msgstr "Избери действие"
+
+#: wp-kradeno.php:286
+msgid "Ignore for this post"
+msgstr "Пренебрегни за този пост"
+
+#: wp-kradeno.php:287
+msgid "Warning sent"
+msgstr "Изпратено предупреждение"
+
+#: wp-kradeno.php:288
+msgid "Successfully changed"
+msgstr "Бил е променен успешно"
+
+#: wp-kradeno.php:289
+msgid "Agreed to repost"
+msgstr "Има позволение за копиране"
+
+#: wp-kradeno.php:291
+msgid "Exclude for all"
+msgstr "Изключи за всички постове"
+
+#: wp-kradeno.php:293
+msgid "Apply"
+msgstr "Приложи"
+
+#: wp-kradeno.php:302
+#: wp-kradeno.php:398
+msgid "Sorry, you are not allowed to access this page."
+msgstr "Съжалявам, но нямате разрешение да отваряте тази страница."
+
+#: wp-kradeno.php:324
+msgid "Excluded sites updated."
+msgstr "Подновени са изключените страници"
+
+#: wp-kradeno.php:332
+msgid "Google calls limit updated."
+msgstr "Ограничението за запитвания към Google е подновено."
+
+#: wp-kradeno.php:340
+msgid "Rating limit updated."
+msgstr "Подновена е минималната оценка"
+
+#: wp-kradeno.php:357
+msgid "WP Kradeno Settings"
+msgstr "WP Крадено Настройки"
+
+#: wp-kradeno.php:366
+msgid "Excluded sites"
+msgstr "Изключeни статии"
+
+#: wp-kradeno.php:369
+msgid "Comma separated. Include only the host name - without 'http', any slashes or quotes."
+msgstr "Отделени със запетайка. Моля включвайте само хоста - без 'http' или наклонени черти."
+
+#: wp-kradeno.php:373
+msgid "Google calls limit"
+msgstr "Ограничение за запитвания до Google."
+
+#: wp-kradeno.php:376
+msgid "Please enter a number >100. This is the maximum number of request to Google Search per hour/session."
+msgstr "Моля въведете число >100. Това е максималната бройка запитвания към Google Search за час/проверка"
+
+#: wp-kradeno.php:376
+msgid "Warning"
+msgstr "Предупреждение"
+
+#: wp-kradeno.php:376
+msgid "do not change if you aren't sure what you are doing"
+msgstr "Не го променяйте, ако не знаете какво правите"
+
+#: wp-kradeno.php:380
+msgid "Minimum search result rating"
+msgstr "Минимална оценка на резултатите"
+
+#: wp-kradeno.php:383
+msgid "Please enter a number between 0.1 and 1.0. This is minimum average score accross multiple searches that a site should pass in order to be considered a repost."
+msgstr "Моля въведете число между 0.01 и 1.0. Това е минималната оценка, която се изчислява измежду няколко търсения, за да може сайта да се отбележи като подозрителен."
+
+#: wp-kradeno.php:387
+msgid "Save"
+msgstr "Запази"
+
+#: wp-kradeno.php:388
+msgid "Restore settings to default."
+msgstr "Възстанови настройките по подразбиране."
+
+#: wp-kradeno.php:388
+msgid "This will undo all your changes!"
+msgstr "Това ще отмени всички ваши промени!"
+
+#: wp-kradeno.php:393
+msgid "Restore to defaults"
+msgstr "Възстанови настройките по подразбиране."
+
+#: wp-kradeno.php:415
+msgid "WP Kradeno:"
+msgstr "WP Крадено:"
+
+#: wp-kradeno.php:421
+#, php-format
+msgid "You haven't checked for %s reposts%s for %d days"
+msgstr "Не сте проверявали за %s копирани постове%s от %d дни"
+
+#: wp-kradeno.php:425
+#, php-format
+msgid "You haven't checked for %s reposts%s so far."
+msgstr "Не сте проверявали за %s копирани постове%s до сега."
+
+#: wp-kradeno.php:445
+#, php-format
+msgid "%d possible re-posts"
+msgstr "%d възможни копирани постове"
+
+#: wp-kradeno.php:447
+#, php-format
+msgid " %d re-posts"
+msgstr " %d копирани постове"
+
+#: wp-kradeno.php:447
+msgid "with preding warnings"
+msgstr "с изпратени предупреждения"
+
+#: wp-kradeno.php:449
+msgid "and"
+msgstr "и"
+
+#: wp-kradeno.php:454
+#, php-format
+msgid "No messages. You haven't checked for %s reposts%s though."
+msgstr "Няма съобщения. Може обаче да проверите за %s копирани постове%s отново."
+
+#: wpkr-search.php:6
+msgid "Error: You are not authorized"
+msgstr "Грешка: Нямате нужните права."
+
+#: wpkr-search.php:11
+msgid "Error: The plugin should be activated first."
+msgstr "Грешка: Добавката трябва да е включена."
+
+#: wpkr-search.php:54
+msgid "Google calls limit reached"
+msgstr "Достигнат е лимита на Google Search запитванията"
+
+#: wpkr-search.php:54
+#: wpkr-search.php:107
+msgid "Sites found"
+msgstr "Открити страници"
+
+#: wpkr-search.php:107
+msgid "Finished"
+msgstr "Довършен"
+
+#. Plugin Name of the plugin/theme
+msgid "WP Kradeno"
+msgstr "WP Крадено"
+
+#. Plugin URI of the plugin/theme
+msgid "http://yurukov.net/"
+msgstr "http://yurukov.net/"
+
+#. Description of the plugin/theme
+msgid "Searches the web for stollen blog posts."
+msgstr "Търси мрежата за откраднати постове"
+
+#. Author of the plugin/theme
+msgid "Boyan Yurukov"
+msgstr "Боян Юруков"
+
+#. Author URI of the plugin/theme
+msgid "http://yurukov.net/blog"
+msgstr "http://yurukov.net/blog"
+
+msgid "You can check for new reposts %shere%s."
+msgstr "Може да проверите за нови копирани статии %sтук%s."
+
+msgid "Alert to recheck after days"
+msgstr "Напомни за проверка след определени дни"
+
+msgid "Please enter a number greater than 3. This will be the number of days after you'll be alerted to check for reposts."
+msgstr "Моля въведете цифра по-голяма от 3. Толкова дни след последната ви проверка за копирани статии ще ви бъде напомнено да проверите пак."
+
+msgid "Excluded posts"
+msgstr "Изключени постове"
+
+msgid "Comma separated. These are the ids of the posts that will not be checked."
+msgstr "Разделени със запетайка. Това са ID-тата на постовете, които няма да бъдат проверявани."
+
+msgid "Recheck alert days updated."
+msgstr "Дните за напомняне са обновени."
+
+msgid "Ignored posts ids updated."
+msgstr "Изключените постове са обновени."
+
+msgid "Stop checks for this post"
+msgstr "Спри да проверяваш за този пост"
+
